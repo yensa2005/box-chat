@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    display: flex;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: #333;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 0;
+}
+
+.chat-box {
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.client {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    background-color: #a51e24;
+    padding: 15px;
+}
+
+.client img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.client-info {
+    color: #fff;
+    padding: 15px;
+}
+
+.client-info p {
+    color: #C6FFC1;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.onl {
+    display: flex;
+    align-items: center;
+}
+
+#rou {
+    border-radius: 50%;
+    background: #C6FFC1;
+    padding: 6px;
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+}
+
+.chat {
+    width: 100%;
+    padding: 0 15px;
+    color: #fff;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.client-chat {
+    color: #fff;
+    width: 60%;
+    word-wrap: break-word;
+    background-color: #a51e24;
+    padding: 7px 10px;
+    border-radius: 10px 10px 10px 0;
+    margin: 10px 20px;
+}
+
+.my-chat {
+    width: 60%;
+    word-wrap: break-word;
+    background-color: rgb(230, 230, 230);
+    padding: 7px 10px;
+    border-radius: 10px 10px 0 10px;
+    margin: 5px 10px 5px auto;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.chat-input input {
+    width: calc(100% - 40px);
+    height: 100%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50px;
+    color: #000;
+    padding: 0 15px;
+}
+
+.send-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.send-btn:active {
+    transform: scale(0.85);
+}
+
+.send-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon-bar {
+    width: 90px;
+    border-radius: 20px;
+    background-color: #a51e24;
+    margin-right: 30px;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    border-radius: 20px;
+    background-color: #a51e24;
+    border: 2px solid #fff;
+}
